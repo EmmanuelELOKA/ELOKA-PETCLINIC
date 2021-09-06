@@ -6,7 +6,7 @@ pipeline {
     }
     environment { 
         AWS_REGION = 'us-east-1'
-        ECRREGISTRY = '464599248654.dkr.ecr.us-east-1.amazonaws.com'
+        ECRREGISTRY = '752023216802.dkr.ecr.us-east-1.amazonaws.com/demomk'
         IMAGENAME = 'demomk'
         IMAGE_TAG = 'latest'
     }
